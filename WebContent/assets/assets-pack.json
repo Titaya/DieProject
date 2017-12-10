@@ -1,0 +1,424 @@
+{
+  "Level": [
+    {
+      "type": "atlas",
+      "key": "chara",
+      "textureURL": "assets/atlas/chara.png",
+      "atlasURL": "assets/atlas/chara.json",
+      "format": "TEXTURE_ATLAS_JSON_HASH"
+    },
+    {
+      "type": "spritesheet",
+      "key": "e1",
+      "url": "assets/images/Ghost1.png",
+      "frameWidth": 64,
+      "frameHeight": 64,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "e2",
+      "url": "assets/images/Ghost2.png",
+      "frameWidth": 64,
+      "frameHeight": 64,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "e3",
+      "url": "assets/images/Ghost3.png",
+      "frameWidth": 64,
+      "frameHeight": 64,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "pmap1",
+      "url": "assets/map/map1.png",
+      "frameWidth": 64,
+      "frameHeight": 64,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "tilemap",
+      "key": "map1",
+      "url": "assets/map/map1.json",
+      "format": "TILED_JSON"
+    },
+    {
+      "type": "image",
+      "key": "bg1",
+      "url": "assets/images/bg1.jpg",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "story1",
+      "url": "assets/images/story.png",
+      "overwrite": false
+    },
+    {
+      "type": "audio",
+      "key": "music",
+      "urls": ["assets/sound/Town of Salem - Login Music (online-audio-converter.com).ogg"],
+      "autoDecode": true
+    },
+    {
+      "type": "spritesheet",
+      "key": "Kahang",
+      "url": "assets/Boss/Kahang.png",
+      "frameWidth": 540,
+      "frameHeight": 384,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "water",
+      "url": "assets/images/water.png",
+      "frameWidth": 32,
+      "frameHeight": 32,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "image",
+      "key": "HpP",
+      "url": "assets/images/HpP.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "HpE",
+      "url": "assets/images/HpE.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "water1",
+      "url": "assets/images/water1.png",
+      "overwrite": false
+    },
+    {
+      "type": "spritesheet",
+      "key": "boom",
+      "url": "assets/images/boom.png",
+      "frameWidth": 64,
+      "frameHeight": 64,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "image",
+      "key": "win",
+      "url": "assets/state/win.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "next",
+      "url": "assets/state/next.png",
+      "overwrite": false
+    },
+    {
+      "type": "spritesheet",
+      "key": "Time",
+      "url": "assets/Time/Time.png",
+      "frameWidth": 64,
+      "frameHeight": 64,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "image",
+      "key": "lost",
+      "url": "assets/state/lost.png",
+      "overwrite": false
+    },
+    {
+      "type": "audio",
+      "key": "winner",
+      "urls": ["assets/sound/Bedtime Relaxing Music - The Beauty of Nature.ogg"],
+      "autoDecode": true
+    },
+    {
+      "type": "audio",
+      "key": "ms",
+      "urls": ["assets/sound/Dragon Roar.ogg"],
+      "autoDecode": true
+    },
+    {
+      "type": "audio",
+      "key": "fs",
+      "urls": ["assets/sound/Female Scream Sound Effects.ogg"],
+      "autoDecode": true
+    },
+    {
+      "type": "audio",
+      "key": "nect",
+      "urls": ["assets/sound/Movie Opener TIMER Countdown 3 sec ( v 477 ) 321go with sound effects HD 4k!.ogg"],
+      "autoDecode": true
+    },
+    {
+      "type": "audio",
+      "key": "loser",
+      "urls": ["assets/sound/Sad Song - Sound Effect.ogg"],
+      "autoDecode": true
+    },
+    {
+      "type": "audio",
+      "key": "hw",
+      "urls": ["assets/sound/howling wind and creepy sounds (online-audio-converter.com).ogg"],
+      "autoDecode": true
+    }
+  ],
+  "start": [
+    {
+      "type": "image",
+      "key": "bg",
+      "url": "assets/images/bg.jpg",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "howto1",
+      "url": "assets/images/howto.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "start1",
+      "url": "assets/images/start.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "story1",
+      "url": "assets/images/story.png",
+      "overwrite": false
+    },
+    {
+      "type": "audio",
+      "key": "music",
+      "urls": ["assets/sound/Town of Salem - Login Music (online-audio-converter.com).ogg"],
+      "autoDecode": true
+    },
+    {
+      "type": "image",
+      "key": "ab",
+      "url": "assets/images/about-us.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "Ab",
+      "url": "assets/images/Ab.png",
+      "overwrite": false
+    }
+  ],
+  "preload": [{
+    "type": "image",
+    "key": "loading",
+    "url": "assets/images/loading.png",
+    "overwrite": false
+  }],
+  "story": [
+    {
+      "type": "image",
+      "key": "s1",
+      "url": "assets/story/s1.jpg",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "s2",
+      "url": "assets/story/s2.jpg",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "s10",
+      "url": "assets/story/s10.jpg",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "s11",
+      "url": "assets/story/s11.jpg",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "s12",
+      "url": "assets/story/s12.jpg",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "s14",
+      "url": "assets/story/s14.jpg",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "s3",
+      "url": "assets/story/s3.jpg",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "s4",
+      "url": "assets/story/s4.jpg",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "s5",
+      "url": "assets/story/s5.jpg",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "s6",
+      "url": "assets/story/s6.jpg",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "s7",
+      "url": "assets/story/s7.jpg",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "s8",
+      "url": "assets/story/s8.jpg",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "s9",
+      "url": "assets/story/s9.jpg",
+      "overwrite": false
+    }
+  ],
+  "howto": [
+    {
+      "type": "image",
+      "key": "h1",
+      "url": "assets/howto/h1.jpg",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "h2",
+      "url": "assets/howto/h2.jpg",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "h3",
+      "url": "assets/howto/h3.jpg",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "h4",
+      "url": "assets/howto/h4.jpg",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "h5",
+      "url": "assets/howto/h5.jpg",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "h6",
+      "url": "assets/howto/h6.jpg",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "h7",
+      "url": "assets/howto/h7.jpg",
+      "overwrite": false
+    }
+  ],
+  "Level2": [
+    {
+      "type": "spritesheet",
+      "key": "pmap2",
+      "url": "assets/map/tile_map2.png",
+      "frameWidth": 64,
+      "frameHeight": 64,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "nak",
+      "url": "assets/Boss/nak.png",
+      "frameWidth": 200,
+      "frameHeight": 200,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "tilemap",
+      "key": "map2",
+      "url": "assets/map/map2.json",
+      "format": "TILED_JSON"
+    }
+  ],
+  "Level3": [
+    {
+      "type": "spritesheet",
+      "key": "chada",
+      "url": "assets/Boss/chada.png",
+      "frameWidth": 64,
+      "frameHeight": 64,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "pmap3",
+      "url": "assets/map/tile_map3.png",
+      "frameWidth": 64,
+      "frameHeight": 64,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "tilemap",
+      "key": "map3",
+      "url": "assets/map/map3.json",
+      "format": "TILED_JSON"
+    }
+  ],
+  "meta": {
+    "generated": "1512898594025",
+    "app": "Phaser Editor",
+    "url": "http://phasereditor.boniatillo.com",
+    "version": "1.0",
+    "copyright": "Arian Fornaris (c) 2015,2016"
+  }
+}
