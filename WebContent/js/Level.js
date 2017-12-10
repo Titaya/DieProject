@@ -206,6 +206,8 @@ Level.prototype.addLost = function(){
 	return Lost;
 };	
 Level.prototype.Timeout = function(){
+	this.music.stop();
+	this.music3.play();
 	this.update(this.Lost.visible=true);
 	
 };	
